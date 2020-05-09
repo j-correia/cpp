@@ -12,6 +12,9 @@ int main()
 	cout << "Here, have two more.";
 	carrots = carrots + 2;
 
-	cout << "\nNow you have " << carrots << " carrots." << endl;
+	cout 	<< "\nNow you have "
+		<< carrots
+		<< " carrots."
+		<< endl;
 	return 0;
 }
