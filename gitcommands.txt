@@ -4,3 +4,4 @@ git rm -f
 git commit -m
 git push
 git status
+git commit --allow-empty-message -m ''
