@@ -1,0 +1,6 @@
+git ls-tree -r master --name-only
+git add
+git rm -f
+git commit -m
+git push
+git status
