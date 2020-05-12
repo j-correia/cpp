@@ -9,10 +9,9 @@ int main()
 {
 	using namespace std;
 	cout << "How many furlong? ";
-	double furlong;
-	cin >> furlong;
+	cin >> (double)furlong;
 	cout << furlong
-	     << " correspond to "
+	     << "furlong correspond to "
 	     << (furlong2meter(furlong))
 	     << " meters.";
 }
